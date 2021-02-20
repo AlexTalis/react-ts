@@ -1,8 +1,7 @@
-import { Typography } from "@material-ui/core";
 import React from "react";
 
 function App() {
-  return <Typography>Write some code</Typography>;
+  return <div style={{ margin: 24 }} />;
 }
 
 export default App;
