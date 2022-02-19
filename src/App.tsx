@@ -1,7 +1,12 @@
+import { ThemeProvider } from "@mui/material";
 import React from "react";
+import { Provider } from "react-redux";
+import { store } from "./redux/store";
 
-function App() {
-  return <div style={{ margin: 24 }} />;
-}
+export const App: React.FC = () => (
+  <Provider store={store}>
+    <div style={{ margin: 24 }} />
+  </Provider>
+);
 
 export default App;
