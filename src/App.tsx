@@ -1,11 +1,12 @@
-import { ThemeProvider } from "@mui/material";
-import React from "react";
-import { Provider } from "react-redux";
-import { store } from "./redux/store";
+import { Box } from '@mui/material';
+import React from 'react';
+import { Provider } from 'react-redux';
+import './index.scss';
+import { store } from './redux/store';
 
 export const App: React.FC = () => (
   <Provider store={store}>
-    <div style={{ margin: 24 }} />
+    <Box m={2} className="abs-pos" />
   </Provider>
 );
 
