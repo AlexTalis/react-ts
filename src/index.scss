@@ -1,13 +1,10 @@
-.abs-pos {
+body {
+  margin: 0;
   position: absolute;
   inset: 0;
 }
 
-body {
-  @extend .abs-pos;
-  margin: 0;
-}
-
 #root {
-  @extend .abs-pos;
+  position: absolute;
+  inset: 0;
 }
