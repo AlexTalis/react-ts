@@ -1,0 +1,8 @@
+@use "~ag-grid-community/styles" as ag;
+
+@include ag.grid-styles((
+    theme: material,
+));
+
+.ag-theme-material {
+}

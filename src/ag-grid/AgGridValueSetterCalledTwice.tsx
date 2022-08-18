@@ -1,6 +1,4 @@
 import { ColDef } from 'ag-grid-community';
-import 'ag-grid-community/dist/styles/ag-grid.css';
-import 'ag-grid-community/dist/styles/ag-theme-alpine.css';
 import { AgGridReact } from 'ag-grid-react';
 import React, { useCallback, useMemo, useState } from 'react';
 
